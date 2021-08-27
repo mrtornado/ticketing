@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: auth-mango-depl
+spec:
+  replicas: 1
+  selector:
+    matchLabeles:
+      app: auht-mango
+  template:
+    metadata:
+      labels:
+        app: auth-mango
+    spec:
+      containers:
+        - name: auth-mango
+          image: mango

@@ -1,0 +1,8 @@
+
+POST https://ticketing.dev/api/users/signup
+Content-Type: application/json
+
+{
+"email": "kasdascom@gogo.com",
+"password": "4242422"
+}

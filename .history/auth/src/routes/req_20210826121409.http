@@ -1,0 +1,8 @@
+
+POST https://ticketing.dev/api/users/singup
+Content-Type: application/json
+
+{
+"email": "test@test.com",
+"password": "asdasd"
+}

@@ -1,0 +1,8 @@
+
+GET https://ticketing.dev/api/users/currentuser
+Content-Type: application/json
+
+{
+"email": "test@test.com",
+"password": "asdasd"
+}
