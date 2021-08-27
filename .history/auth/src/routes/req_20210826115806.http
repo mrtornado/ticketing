@@ -1,8 +1,0 @@
-
-POST https://ticketing.dev/api/users/signin
-Content-Type: application/json
-
-{
-"email": "czxczxc1@gogo.com",
-"password": "asdasd"
-}
