@@ -1,2 +1,3 @@
+.*
+!/.gitignore
 auth/node_modules
-.history
