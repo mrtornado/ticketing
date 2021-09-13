@@ -11,7 +11,7 @@
     "preset": "ts-jest",
     "testEnvironment": "node",
     "testTimeout": 90000,
-    "setupFileAfterEnv": [
+    "setupFilesAfterEnv": [
       "./src/test/setup.ts"
     ]
   },
