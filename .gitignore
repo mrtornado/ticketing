@@ -1,4 +1,4 @@
 .history
 !/.gitignore
-auth/node_modules
+**/node_modules
 .vscode
